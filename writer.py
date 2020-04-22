@@ -6,15 +6,15 @@ letter_color="clblue"
 letter_set="set0"
 trcolor=False
 letter_type=""
-htmlc=["<html><head><style>.lines{width:100%;height:auto;float:left;}#paper{background:white;background-image:url('images/texture.png');height:auto;float:left;padding:50px 50px;width:90%;}img,span{height:25px;width:10px;float:left;margin-top:5px;margin-bottom:10px;}.clblack{filter:brightness(30%);}.clblue{filter:brightness(100%);}</style></head><body><div id='paper'>"]
-# Strips the newline character 
-for line in Lines: 
+htmlc=["<html><head><style>.lines{width:100%;height:auto;float:left;}#paper{background:white;background-image:url('images/texture3.jpg');height:auto;float:left;padding:50px 50px;width:90%;}img,span{height:25px;width:10px;float:left;margin-top:5px;margin-bottom:10px;}.clblack{filter:brightness(10%);}.clblue{filter:brightness(50%);}</style></head><body><div id='paper'>"]
+# Strips the newline character
+for line in Lines:
     curst=line.strip()
     htmlc.append('<div class="lines">')
     for ch in curst:
         #get char ASCII Code of char
         chcode=ord(ch)
-        #max 10 sets of letters 
+        #max 10 sets of letters
         random_letter=round(random.random()*10)
         #enable the below statement if 10 sets of letters available
         #letter_set="set{}".format(random_letter)
@@ -43,6 +43,6 @@ for line in Lines:
     htmlc.append('</div>')
 textfile.close()
 htmlc.append('</div></body></html>')
-page_html = open('page.html', 'w') 
-page_html.writelines(htmlc) 
-page_html.close() 
+page_html = open('page.html', 'w')
+page_html.writelines(htmlc)
+page_html.close()

@@ -1,4 +1,11 @@
 $
-$         #(Center Text)#
+$
+$
+$
+$
+$
+$
+$
+$         #(Readme)#
 $#Introduction#
-Hello my name is Bug Boy.
+You can type any document (read copy paste) and this program will generate hand written scripts..........
