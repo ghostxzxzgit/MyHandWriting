@@ -6,7 +6,7 @@ letter_color="clblue"
 letter_set="set0"
 trcolor=False
 letter_type=""
-htmlc=["<html><head><style>.lines{width:100%;height:auto;float:left;}#paper{background:white;background-image:url('images/texture3.jpg');height:auto;float:left;padding:50px 50px;width:90%;}img,span{height:25px;width:10px;float:left;margin-top:5px;margin-bottom:10px;}.clblack{filter:brightness(10%);}.clblue{filter:brightness(50%);}</style></head><body><div id='paper'>"]
+htmlc=["<html><head><style>.lines{width:100%;height:auto;float:left;}#paper{background:white;background-image:url('images/texture2.jpg');height:auto;float:left;padding:50px 50px;width:90%;}img,span{height:25px;width:10px;float:left;margin-top:5px;margin-bottom:10px;}.clblack{filter:brightness(10%);}.clblue{filter:brightness(50%);}</style></head><body><div id='paper'>"]
 # Strips the newline character
 for line in Lines:
     curst=line.strip()
